@@ -1,0 +1,2 @@
+EdInicial <- c()
+IngCivil <- c()
