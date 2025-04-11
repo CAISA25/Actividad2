@@ -24,3 +24,6 @@ covarianza <- cov(EdInicial, IngCivil)
 cat("Educación Inicial - Media:", media_EdInicial, " | Desviación estándar:", sd_EdInicial, "\n")
 cat("Ingeniería Civil  - Media:", media_IngCivil,  " | Desviación estándar:", sd_IngCivil, "\n")
 cat("Covarianza entre grupos:", covarianza, "\n")
+
+# Prueba t de Student para muestras independientes
+t.test(EdInicial, IngCivil, var.equal = FALSE)  # Asumiendo varianzas distintas
